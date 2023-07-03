@@ -5,7 +5,8 @@ const Form = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert(`The name you entered was: ${name}`)
+    let name1 = {name};
+    html2pdf(name1);
   }
 
   return (
